@@ -1,0 +1,59 @@
+/* Estilos globales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6e6ff;
+    color: #4b0082;
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #4b0082;
+    padding: 1rem;
+}
+
+.page-title {
+    color: white;
+    text-align: center;
+}
+
+/* Estilos de la sección de Carolina */
+.about-carolina {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    justify-content: center;
+}
+
+.text-container {
+    color: beige;
+    background-color: rgba(227, 227, 224, 0.491);
+    padding: 1rem;
+    border-radius: 3rem;
+}
+
+.odd-text , 
+.even-text {
+    background-color: #b695c0;
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 60%;
+
+}
+
+.odd-text {
+    margin-right: auto;
+   
+}
+
+.even-text {
+    
+   
+    margin-left: auto;
+}
